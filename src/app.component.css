@@ -1,0 +1,106 @@
+*
+{
+	background-color: rgba(217,217,217,1);	
+	word-spacing:7px; /*Specify that the space between words in <p> elements should be 30
+pixels:*/
+}
+
+.menu ul
+{
+	margin:0;
+	padding:0;
+}
+
+.menu a
+{
+	font-size:25px;
+	display:block;	
+	text-align: center;
+	padding: 5px 20px;
+	text-decoration:none;
+	font-weight: bold;
+}
+.menu li
+{
+	display:inline-block;
+}
+.menu li a:hover
+{
+	background:silver;
+}
+.hei img
+{
+	min-height: 30%; 
+}
+
+.gr
+{
+	word-spacing: -8px
+}
+.gr img
+{
+	max-width:100%;
+	min-width:100%;
+}
+
+.header
+{
+	border-collapse:collapse;
+	font-size:25px;
+	text-align:center;
+	color: red;
+}
+
+.u_1,.u_1_2,.u_1_3,.u_2_3
+{
+display:inline-block; /*Inline elements don’t start on a new line, they appear on the same
+line as the content and tags beside them*/
+font-size:25px;
+}
+.u_1
+{
+display:block;
+padding: 5px;
+}
+.u_1_2
+{
+width:50%;
+}
+
+.border_line {
+border-top: 2px black solid;
+border-bottom: 2px black solid;
+border-left: 2px black solid;
+border-right: 2px black solid;
+}
+
+.footer {
+background-color: GhostWhite;
+border-top: 3px #D3D3D3;
+font-size: 90%;
+line-height: 100%;
+}
+
+
+.button
+{
+font-size:20px;
+border: 2px;
+text-decoration: underline;
+}
+
+
+.u_1_3
+{
+width:33.33%
+}
+.u_2_3
+{
+width:66.66%
+}
+
+.padd
+{
+	padding-left: 35px;
+	padding-right: 35px;
+}
